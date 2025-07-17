@@ -31,26 +31,4 @@ This repository contains the SQL scripts and documentation for a social media pl
 
 - Triggers are implemented to automatically insert a row into the notification table when a comment, like, message, or tag is inserted related to a user.
 
-## Usage
 
-1. Clone this repository to your local machine.
-2. Run the SQL scripts in your MariaDB environment to create the database and tables.
-3. Insert sample data into the tables using appropriate SQL statements.
-4. Explore the database structure and functionality.
-
-## Table Creation Scripts
-
-- [users.sql](users.sql)
-- [posts.sql](posts.sql)
-- [comments.sql](comments.sql)
-- [friendships.sql](friendships.sql)
-- [notifications.sql](notifications.sql)
-- [likes.sql](likes.sql)
-- [messages.sql](messages.sql)
-- [tag.sql](tag.sql)
-
-## Trigger Scripts
-
-- [notification_trigger.sql](notification_trigger.sql)
-
-Feel free to contribute to this project by suggesting improvements or adding new features!
